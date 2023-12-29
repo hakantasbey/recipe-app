@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import Nav, { NavLi } from "./styled/NavStyled";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <Nav>
+      <div>
+        <NavLi to="/">
+          <h1>RECIPE</h1>
+        </NavLi>
+      </div>
 
-export default Navbar
+      <div>
+        <NavLi to="/about">ABOUT</NavLi>
+        <NavLi to="/contact">CONTACT</NavLi>
+        <NavLi to="/login">LOGOUT</NavLi>
+      </div>
+    </Nav>
+  );
+};
+
+export default Navbar;
