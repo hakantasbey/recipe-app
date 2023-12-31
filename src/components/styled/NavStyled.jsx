@@ -28,6 +28,8 @@ export const NavLi = styled(Link)`
     }
   }
 
+
+  
   @media (max-width: ${breakpoints.mobile}) {
     margin: 0.5rem;
     font-size: 1rem;
